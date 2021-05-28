@@ -1,0 +1,33 @@
+{
+    	"name": "pessek/hypedropzone",
+	"version": "1.0",
+    	"type": "elgg-plugin",
+    	"description": "Drag-n-drop file uploads for Elgg",
+    	"keywords": [
+        	"elgg",
+        	"plugin",
+        	"upload",
+        	"dropzone",
+        	"drag-n-drop"
+    	],
+ 	"extra": {
+        	"installer-name": "hypedropzone"
+    	},
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+    	"license": "proprietary",
+    	"require": {
+        	"php": ">=7.1",
+        	"composer/installers": "~1.0",
+        	"npm-asset/dropzone": "<=5.4.0 || >5.5.0"
+	},
+	"autoload": {
+        	"psr-0": {
+            		"": "classes/"
+        	}
+    	}
+}
