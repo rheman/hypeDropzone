@@ -1,5 +1,5 @@
 {
-    	"name": "pessek/hypeDropzone",
+    	"name": "pessek/hypedropzone",
 	"version": "4.0",
     	"type": "elgg-plugin",
     	"description": "Drag-n-drop file uploads for Elgg",
